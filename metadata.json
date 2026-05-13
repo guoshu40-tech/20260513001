@@ -1,6 +1,0 @@
-{
-  "name": "Breakout Modern",
-  "description": "一個精細磨合、具有動態回饋的打磚塊遊戲，使用 React 與 Canvas 打造。",
-  "requestFramePermissions": [],
-  "majorCapabilities": []
-}

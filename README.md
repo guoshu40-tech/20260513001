@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neon Breaker - 霓虹打磚塊
 
-# Run and deploy your AI Studio app
+一個使用 React, TypeScript 和 HTML5 Canvas 打造的精細打磚塊遊戲。
 
-This contains everything you need to run your app locally.
+## 特色
 
-View your app in AI Studio: https://ai.studio/apps/00f723c2-98b6-4d99-96f2-bee5373e15f2
+- **精細動態**: 使用粒子系統與物理碰撞
+- **霓虹風格**: 現代感十足的視覺效果
+- **關卡系統**: 多樣化的磚塊佈局
+- **音效回饋**: 即時的遊戲音效
 
-## Run Locally
+## 本地開發
 
-**Prerequisites:**  Node.js
+### 前置需求
 
+- Node.js (建議 v18 以上)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 安裝與執行
+
+1. 安裝依賴:
+   ```bash
+   npm install
+   ```
+
+2. 啟動開發伺服器:
+   ```bash
+   npm run dev
+   ```
+
+3. 打開瀏覽器訪問 `http://localhost:3000`
+
+## 技術棧
+
+- **框架**: React 19
+- **語言**: TypeScript
+- **動畫**: Motion (Framer Motion)
+- **樣式**: Tailwind CSS 4
+- **圖標**: Lucide React
+- **構建工具**: Vite
+
